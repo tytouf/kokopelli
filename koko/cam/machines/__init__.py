@@ -6,5 +6,7 @@
 """
 
 import modela, epilog, universal, null, shopbot, gcode, shopbot5
+import smoothieboard
 
-MACHINES = [null, modela, epilog, universal, shopbot, gcode, shopbot5]
+MACHINES = [null, modela, epilog, universal, shopbot, gcode, shopbot5,
+            smoothieboard]
